@@ -1,0 +1,115 @@
+* {
+    /* removing default css properties*/
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    border: none;
+    font: inherit;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+  }
+  #wrong{
+    width: 65px;
+    height: 50px;
+    position: absolute;
+    top:10px;
+    right: 2px;
+    cursor: pointer;
+    z-index: 20;
+    }
+header {
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    box-shadow: 2px 1px 1px black;
+    display: flex;
+    position: relative;
+    position: fixed;
+    top:0px;
+    z-index: 10;
+  }
+  #logo {
+    width: 130px;
+    height: 125px;
+    position: absolute;
+    bottom: -3px;
+    left: 15px;
+    background-image: url("./logo2.png");
+    background-size: cover;
+  }
+  #name {
+    width: 350px;
+    height: 50px;
+    font-size: 30px;
+    color: #0a2384;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 175px;
+    top: 55px;
+  }
+  /* nav-bar */
+  #nav-bar {
+    width: 480px;
+    padding: 10px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    gap: 25px;
+    position: absolute;
+    border-bottom: #0a2384;
+    right: 100px;
+    top: 38px;
+  }
+  #home {
+    width: 68px;
+    height: 35px;
+    border-radius: 20px;
+    border-bottom: 3px solid #f3ef11;
+    color: #0a2384;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  #aboutus {
+    width: 105px;
+    height: 35px;
+    /* border-bottom: 3px solid #f3ef11; */
+    border-radius: 20px;
+    color: #0a2384;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  #account {
+    width: 100px;
+    height: 35px;
+    /* border-bottom: 3px solid #f3ef11; */
+    border-radius: 20px;
+    color: #0a2384;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  #products {
+    width: 100%;
+    height: 50px;
+    background-color: #0a2384;
+    border: 2px solid black;
+    display: flex;
+    gap: 140px;
+    padding: 10px;
+    padding-left: 40px;
+  }   
